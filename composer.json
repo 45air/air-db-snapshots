@@ -1,0 +1,39 @@
+{
+  "name": "45air/air-db-snapshots",
+  "description": "45AIR hosting DB syncing tool",
+  "keywords": ["45air", "airsnapshots"],
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Reilly Lowery",
+      "email": "r.lowery@45press.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^3.3 || ^4.1",
+    "rmccue/requests": "^1.7",
+    "php": ">=5.6"
+  },
+  "scripts": {
+    "lint": [
+      "phpcs ."
+    ],
+    "lint-fix": [
+      "phpcbf ."
+    ]
+  },
+  "require-dev": {
+    "45press/phpcs": "dev-master"
+  },
+  "bin": [
+    "bin/airsnapshots"
+  ],
+  "autoload": {
+    "files": [
+      "src/utils.php"
+    ],
+    "psr-4": {
+      "AirSnapshots\\": "./src/classes"
+    }
+  }
+}
