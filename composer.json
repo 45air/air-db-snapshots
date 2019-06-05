@@ -12,7 +12,9 @@
   "require": {
     "symfony/console": "^3.3 || ^4.1",
     "rmccue/requests": "^1.7",
-    "php": ">=5.6"
+    "php": ">=5.6",
+    "google/cloud-storage": "^1.12",
+    "google/cloud-datastore": "^1.9"
   },
   "scripts": {
     "lint": [

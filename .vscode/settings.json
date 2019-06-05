@@ -1,0 +1,118 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 10000,
+  "editor.scrollBeyondLastLine": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.indentInnerHtml": false,
+  "javascript.format.enable": false,
+  "php.suggest.basic": false,
+  "phpcs.autoConfigSearch": true,
+  "phpcs.showSources": true,
+  "phpcs.executablePath": "./vendor/bin/phpcs",
+  "php-docblocker.qualifyClassNames": true,
+  "docthis.inferTypesFromNames": true,
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.provideLintTask": false,
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "scss.showErrors": true,
+  "stylelint.enable": true,
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.disableLanguages": ["vue"],
+  "vetur.format.options.useTabs": true,
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 80,
+      "singleQuote": false,
+      "wrapAttributes": true,
+      "sortAttributes": false
+    }
+  },
+  "[php]": {
+    "editor.insertSpaces": false
+  },
+  "[javascript]": {
+    "editor.insertSpaces": true
+  },
+  "[html]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.insertSpaces": true
+  },
+  "[xml]": {
+    "editor.insertSpaces": true
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true
+  },
+  "[scss]": {
+    "editor.insertSpaces": false
+  },
+  "namespaceResolver.sortNatural": true,
+  "javascript.autoClosingTags": false,
+  "javascript.format.insertSpaceAfterCommaDelimiter": false,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.autoClosingTags": false,
+  "typescript.format.enable": false,
+  "typescript.format.insertSpaceAfterCommaDelimiter": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": false,
+  "javascript.validate.enable": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+  "typescript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.reportStyleChecksAsWarnings": false,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.tsc.autoDetect": "off",
+  "typescript.validate.enable": false,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "workbench.enableExperiments": false,
+  "workbench.list.openMode": "doubleClick",
+  "workbench.quickOpen.closeOnFocusLost": false,
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.quickSuggestionsDelay": 0,
+  "intelephense.files.maxSize": 4000000,
+  "intelephense.format.enable": false,
+  "php.validate.enable": false
+}

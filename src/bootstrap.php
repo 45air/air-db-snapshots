@@ -1,18 +1,25 @@
 <?php
 /**
- * Bootstrap WP Snapshots
+ * Bootstrap Air DB Snapshots
  *
- * @package  wpsnapshots
+ * @package airsnapshots
  */
-namespace WPSnapshots;
-use \Symfony\Component\Console\Application;
-define( 'WPSNAPSHOTS_VERSION', '1.5.3' );
+
+namespace AirSnapshots;
+
+use Symfony\Component\Console\Application;
+
+define( 'AIRSNAPSHOTS_VERSION', '0.0.1' );
+
 require_once __DIR__ . '/utils.php';
-$app = new Application( 'WP Snapshots - A project sharing tool for WordPress.', WPSNAPSHOTS_VERSION );
+
+$app = new Application( 'Air DB Snapshots', AIRSNAPSHOTS_VERSION );
+
 /**
- * Attempt to set this as WP Snapahots can consume a lot of memory.
+ * Attempt to set this as Air DB Snapahots can consume a lot of memory.
  */
 ini_set( 'memory_limit', '-1' );
+
 /**
  * Register commands
  */
